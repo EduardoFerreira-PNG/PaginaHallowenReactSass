@@ -1,7 +1,14 @@
+@use './variables'
+    
 *
     margin: 0
     padding: 0
     box-sizing: border-box
+    list-style: none
+
+footer
+    width: 100%
+    padding-bottom: 1em
 
 .container__footer
     display: grid
@@ -9,5 +16,34 @@
     justify-items: center
     align-items: center
 
-.svg
-    color: red
+.sociais
+    display: flex
+    align-items: center
+    gap: 0.8em
+    font-size: 1.5em
+    cursor: pointer
+    
+
+.sociais li
+    color: variables.$color-abobora
+
+#insta-icon
+    color: #eec00
+
+.copy p
+    font-size: 15px
+    letter-spacing: 0.1em
+
+.copy p:hover
+    transition: 0.3s
+    color: variables.$color-abobora
+    cursor: pointer
+
+.contato p
+    font-size: 15px
+    font-family: 'Helvetica'
+
+.contato p:hover
+    transition: 0.3s
+    color: variables.$color-abobora
+    cursor: pointer

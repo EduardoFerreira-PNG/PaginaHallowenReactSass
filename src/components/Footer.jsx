@@ -1,4 +1,4 @@
-import {FaInstagram, FaTiktok, FaLinkedin, FaYoutube} from 'react-icons/fa'
+import {FaInstagram, FaTiktok, FaLinkedin, FaYoutube} from 'react-icons/Fa'
 
 import './footer.sass'
 
@@ -7,16 +7,16 @@ const Footer = () => {
     <footer>
         <div className="container__footer">
             <div className="sociais">
-                <FaInstagram/>
-                <FaLinkedin/>
-                <FaYoutube/>
-                <FaTiktok />
+                <li><FaInstagram id="insta-icon"/></li>
+                <li></li><FaLinkedin id="linkedin-icon"/>
+                <li></li><FaYoutube id="youtube-icon"/>
+                <li></li><FaTiktok id="tiktok-icon"/>
             </div>
             <div className="copy">
-                <p className='p__footer'>Direitos autorais Edu</p>
+                <p>Direitos autorais © Edu - 2022</p>
             </div>
             <div className="contato">
-
+                <p>eduardonaves02@outlook.com</p>    
             </div>
         </div>
     </footer>
